@@ -39,6 +39,7 @@ Please turn in the following files to eCourse2:
 在此資料夾裡執行如下指令。
 
 測試程式1：
+'''
 	java -cp ./antlr-3.5.2-complete.jar:. myCompiler_test test1.c > test1.ll
 	
 	llc test1.ll
@@ -46,8 +47,10 @@ Please turn in the following files to eCourse2:
 	gcc -o test1 -no-pie -Iincludes test1.s
 	
 	./test1
+'''
 
 測試程式2：
+'''
 	java -cp ./antlr-3.5.2-complete.jar:. myCompiler_test test2.c > test2.ll
 		
 	llc test2.ll
@@ -55,8 +58,9 @@ Please turn in the following files to eCourse2:
 	gcc -o test2 -no-pie -Iincludes test2.s
 	
 	./test2
-
+'''
 測試程式3：
+'''
 	java -cp ./antlr-3.5.2-complete.jar:. myCompiler_test test3.c > test3.ll
 	
 	llc test3.ll
@@ -64,5 +68,5 @@ Please turn in the following files to eCourse2:
 	gcc -o test3 -no-pie -Iincludes test3.s
 	
 	./test3
-
+'''
 之後結果就會印在終端機裡。
