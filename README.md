@@ -29,8 +29,6 @@ Please turn in the following files to eCourse2:
   - A readme file (pure text file) describes the features of your compiler and explains how to compile and execute your compiler. 
   - Makefile
 
-請將上述的檔案打包壓縮存成 tar.bz2 之格式，檔名為 prj4_<學號>.tar.bz2 檔 (例如: prj4_401234567.tar.bz2，上傳到 eCourse2。
-
 ### 如何編譯：
 
 1. 將這些檔案解壓縮後與antlr官網下載下來的（或是資料夾內的也可以）antlr-3.5.2-complete.jar放在同一資料夾裡
